@@ -1,0 +1,33 @@
+# ReBot v1.0 - Reinforcement Learning Trading Bot Requirements
+
+# Core Data Science Libraries
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Financial Data & Technical Analysis
+yfinance>=0.1.70
+TA-Lib>=0.4.24
+
+# Visualization
+matplotlib>=3.5.0
+mplfinance>=0.12.7
+
+# Machine Learning (if needed for future versions)
+scikit-learn>=1.0.0
+
+# Utility Libraries
+pickle-mixin>=1.0.2
+
+# Development & Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: For better performance
+numba>=0.56.0
+
+
+# Windows (using conda)
+#conda install -c conda-forge ta-lib
+
+# Or download TA-Lib from: https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib
+# Then: pip install TA_Lib-0.4.xx-cpxx-cpxxm-win_amd64.whl
